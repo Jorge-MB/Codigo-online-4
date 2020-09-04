@@ -56,9 +56,9 @@
 
                     <label for="inputRadiof">otro</label>
                     <input type="radio" id="inputRadioO" name="genero">
-
                 </td>
             </tr>
+
             <tr>
                 <td>
                     <label for="">Idiomas</label>
@@ -76,7 +76,6 @@
             </tr>
 
             <tr>
-
                 <td>
                     <label for="">Email</label>
                 </td>
@@ -84,14 +83,16 @@
                     <input type="email" value="@gmail.com" placeholder="Ingrese su email">
                 </td>
             </tr>
+
             <tr>
                 <td>
                     <label for="inputPassword">password</label>
                 </td>
                 <td>
-                    <input type="password" id="inputPassword">
+                    <input type="password" id="inputPassword" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters">
                 </td>
             </tr>
+
             <tr>
                 <td>
                     <label for="txtcomentario">comenterios</label>
@@ -100,6 +101,7 @@
                     <textarea name="txtarea" id="txtcomentario" cols="30" rows="10"></textarea>
                 </td>
             </tr>
+
             <tr>
                 <td>
                     <label for="slcDpto">Selecione su Dpto</label></td>
@@ -111,6 +113,7 @@
                 </select>
                 </td>
             </tr>
+
             <br>
             <tr>
                 <td>
@@ -121,6 +124,7 @@
                     <input type="reset" value="Limpiar formulario">
                 </td>
             </tr>
+
             <tr>
                 <td>
                     <label for="inputfilesub">subir archivos</label>
@@ -129,8 +133,6 @@
                     <input type="file" id="inputfilesub">
                 </td>
             </tr>
-
-
 
         </table>
     </form>
