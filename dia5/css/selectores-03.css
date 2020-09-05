@@ -1,0 +1,35 @@
+header {
+    background: burlywood;
+}
+
+section {
+    background: cadetblue;
+}
+
+h1,
+h2,
+h3 {
+    color: crimson;
+}
+
+
+/* seleccionamos hijos sin importar el nivel principal */
+
+.anuncios .textoanuncio {
+    background: saddlebrown;
+    color: white;
+}
+
+
+/* clase principal */
+
+.card {
+    background: burlywood;
+}
+
+
+/* cuerpo de la clase se llama al principal espacio y al cuerpo*/
+
+.card .card-boy {
+    color: royalblue;
+}
