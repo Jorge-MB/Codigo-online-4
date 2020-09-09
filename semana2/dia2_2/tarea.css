@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #5D46A0;
+}
+
+p {
+    text-align: center;
+}
+
+.formulario {
+    border: 2px solid #5D46A0;
+    width: 400px;
+    height: 600px;
+    margin: 20px auto;
+    /* borde al formulario con un radio de 20 */
+    border-radius: 20px;
+    padding: 60px;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.formulario__input {
+    width: 100%;
+    padding: 5px 2px;
+    outline: none;
+    border-style: solid;
+    border-color: #EFF0FA #EFF0FA #EFF0FA #5D46A0;
+    margin: 5px 0px 20px;
+    background-color: rgba(239, 240, 250, 0.986);
+}
+
+.formulario__submit:active {
+    background-color: #5D46A0;
+    color: #f5f4f8;
+}
+
+.formulario__submit {
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 2px;
+    margin-top: 10px;
+    border: 2px solid #5D46A0;
+    font-size: 18px;
+    font-family: "Lato";
+    color: #5D46A0;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+}
+
+.formulario__chek {
+    font-size: 10px;
+    padding: 10px auto;
+    margin-right: 10px;
+}
+
+.formulario__chek .texto {
+    text-align: right;
+    position: right;
+}

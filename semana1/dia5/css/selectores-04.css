@@ -1,0 +1,44 @@
+/* nth-child obedece a una posicion  */
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+li:nth-child(2) {
+    color: blue;
+}
+
+
+/* cambia primer elemento */
+
+li:first-child {
+    color: brown;
+}
+
+
+/* cambia ultimo elemento */
+
+li:last-child {
+    color: burlywood;
+}
+
+
+/* odd =impares,  even= pares */
+
+
+/* impares */
+
+tbody tr:nth-child(odd) {
+    background: coral;
+}
+
+
+/* pares */
+
+tbody tr:nth-child(even) {
+    background: cornflowerblue;
+}
+
+thead {
+    background: turquoise;
+}

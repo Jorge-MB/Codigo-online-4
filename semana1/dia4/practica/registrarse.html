@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario registro</title>
+</head>
+
+<body>
+    <h1> Registrarse</h1>
+    <nav>
+        <a href="./iniciarsesion.html">iniciar sesion</a>
+        <a href="#">Registrarse</a>
+    </nav>
+    <form action="">
+        <br>
+        <table>
+
+            <tr>
+                <td>
+                    <label for="txtnom">Nombre Completo:</label>
+                </td>
+                <td>
+                    <input type="text" id="txtnom" placeholder="Ingresar nombre completo" pattern="[a-z]{1,15}">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="txtApellido">Apellidos:</label>
+                </td>
+                <td>
+                    <input type="text" id="txtApellido" placeholder="Igresar apellido">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="txtEdad">Edad:</label>
+                </td>
+                <td>
+                    <input type="Number" id="txtEdad">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="txtFenac">Fecha de nacimiento:</label>
+                </td>
+                <td>
+                    <input type="date" id="txtFenac">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="txtApellido">Correo:</label>
+                </td>
+                <td>
+                    <input type="email" id="txtEmail" placeholder="Igresar Correo">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="inputPassword">Contraseña:</label>
+                </td>
+                <td>
+                    <input type="password" id="inputPassword" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="">Sexo:</label>
+                </td>
+                <td>
+                    <label for="inputRadiom">M</label>
+                    <input type="radio" id="inputRadiom" name="genero" checked>
+
+                    <label for="inputRadiof">F</label>
+                    <input type="radio" id="inputRadiof" name="genero">
+
+                    <label for="inputRadiof">Otro</label>
+                    <input type="radio" id="inputRadioO" name="genero">
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Idiomas:</label>
+                </td>
+                <td>
+                    <label for="chekIngles">Ingles</label>
+                    <input type="checkbox" id="chekIngles" checked>
+
+                    <label for="chekEs">Español</label>
+                    <input type="checkbox" id="chekEs">
+
+                    <label for="chekPort">Portuges</label>
+                    <input type="checkbox" id="chekPort">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="txtcomentario">Descripcion:</label>
+                </td>
+                <td>
+                    <textarea name="txtarea" id="txtcomentario" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="inputfilesub">Ingresar su CV:</label>
+                </td>
+                <td>
+                    <input type="file" id="inputfilesub" value="Seleccionar Archivo" </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="inputColor">Color:</label>
+                </td>
+                <td>
+                    <input type="color" id="inputColor">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for=""></label>
+                </td>
+                <td>
+                    <input type="submit" value="Registrarme">
+
+                </td>
+            </tr>
+        </table>
+
+
+    </form>
+    <!-- Finaliza el formulario -->
+</body>
+
+</html>

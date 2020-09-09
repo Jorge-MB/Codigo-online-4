@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+.titulo {
+    /* tipo de fuente */
+    font-family: cursive;
+    /* tamaño de fuente */
+    font-size: 32px;
+    /* grosor de fuente, valores entre 100 y 900 donde 900 es super negrita */
+    font-weight: 500;
+    font-style: italic;
+}
+
+.subtitulo {
+    /* une todas las propiedades de fuentes  orden: style weight size family*/
+    font: italic 500 24px arial;
+}
+
+.parrafo_p1 {
+    text-align: justify;
+}
+
+.parrafo__titulo {
+    text-align: center;
+    color: white;
+    background-color: slategray;
+    /* espaciado entre letra y letra */
+    letter-spacing: 8px;
+    /* espaciado entre palabra yy palabra */
+    word-spacing: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
