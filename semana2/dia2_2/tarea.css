@@ -15,8 +15,8 @@ p {
 
 .formulario {
     border: 2px solid #5D46A0;
-    width: 400px;
-    height: 600px;
+    width: 350px;
+    height: 500px;
     margin: 20px auto;
     /* borde al formulario con un radio de 20 */
     border-radius: 20px;
@@ -34,6 +34,16 @@ p {
     background-color: rgba(239, 240, 250, 0.986);
 }
 
+.div__chek {
+    float: left;
+    font-size: 12px;
+}
+
+.div__a {
+    float: right;
+    font-size: 12px;
+}
+
 .formulario__submit:active {
     background-color: #5D46A0;
     color: #f5f4f8;
@@ -41,26 +51,14 @@ p {
 
 .formulario__submit {
     border: none;
-    padding: 10px;
-    color: white;
+    padding: 5px 15px;
     border-radius: 2px;
-    margin-top: 10px;
+    margin: 50px 12px;
     border: 2px solid #5D46A0;
-    font-size: 18px;
-    font-family: "Lato";
-    color: #5D46A0;
+    font-size: 15px;
+    /*  curos manito */
     cursor: pointer;
     outline: none;
     text-align: center;
-}
-
-.formulario__chek {
-    font-size: 10px;
-    padding: 10px auto;
-    margin-right: 10px;
-}
-
-.formulario__chek .texto {
-    text-align: right;
-    position: right;
+    box-shadow: 0 0 5px #719ECE;
 }

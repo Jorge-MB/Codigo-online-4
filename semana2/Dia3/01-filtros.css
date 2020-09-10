@@ -1,0 +1,7 @@
+.seccion1:hover {
+    /* aplica brillo a un elemento y acepta valores entre 0 y 10 ejem 0.8 */
+    filter: brightness(0.7);
+    /* define la transparencia de un elemento
+    valores 0=transparente y 1= nada */
+    filter: opacity(0.5);
+}
