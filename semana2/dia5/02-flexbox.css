@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.padre {
+    border: 1px solid tomato;
+    /* flex alinia todos a la derecha */
+    display: flex;
+    /* flex-direction: row; al existir el flex por defecto  asume como elementos a la derecha  */
+    /* flex-direction: column; */
+    /* nowrap sing los hijos no colapsan */
+    flex-wrap: nowrap;
+}
+
+.caja-1,
+.caja-2,
+.caja-3,
+.caja-4 {
+    border: 1px solid black;
+    width: 25%;
+}
+
+.caja-1 {
+    width: 200px;
+    background-color: cadetblue;
+}
+
+.header {
+    height: 60px;
+    background-color: chocolate;
+}
+
+.header_lista {
+    height: 100%;
+    background-color: darkcyan;
+    display: flex;
+    list-style: none;
+}
+
+.header_item {
+    flex: 1px;
+    border: 1px solid yellow;
+}

@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    border: 1px solid blue;
+    height: 400px;
+    /* justifica los elementos en el eje principa 
+    cual es el eje pricipal? 
+    - cuando flex-direction:; es row el eje principal es X
+    */
+    /* align-items: alinia los elementos en el eje secundario; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main__formulario {
+    width: 600px;
+    border: 1px solid red;
+}
