@@ -24,6 +24,8 @@ body {
     height: 60px;
     background: -webkit-linear-gradient(left, var(--primary), var(--primary-light), var(--primary));
     display: flex;
+    z-index: 10;
+    position: relative;
 }
 
 .header__logo {
@@ -94,7 +96,7 @@ body {
     top: 0;
     left: 0;
     padding-top: 60px;
-    /* z-index: -5px; */
+    z-index: 0;
 }
 
 .main__list {
@@ -102,7 +104,7 @@ body {
 }
 
 .main__item {
-    background-color: #995228;
+    background-color: #c76e3a;
     height: 60px;
     border-bottom: 1px solid rgb(160, 152, 152);
     display: flex;
@@ -114,7 +116,7 @@ body {
 }
 
 .main__item:hover {
-    background-color: rgb(160, 152, 152);
+    background-color: rgb(155, 97, 9);
 }
 
 .main__item i {
