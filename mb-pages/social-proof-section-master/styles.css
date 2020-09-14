@@ -1,0 +1,159 @@
+    * {
+        margin: 0;
+        box-sizing: border-box;
+        padding: 0;
+    }
+    
+    i {
+        font-weight: 10;
+    }
+    
+    body {
+        font-family: 'Spartan', sans-serif;
+    }
+    
+    main {
+        margin: 50px;
+        box-shadow: #aaa 0px 0px 8px;
+        /* background-color: lightskyblue; */
+    }
+    
+    img {
+        padding: 4px;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        padding-left: 100px;
+        /* background-color: mediumseagreen; */
+    }
+    
+    .card1 {
+        width: 60%;
+        background-color: white;
+        cursor: pointer;
+        margin-top: 80px;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    
+    .card1__title {
+        font-size: 52px;
+        text-align: left;
+        color: rgb(92, 8, 92);
+    }
+    
+    .card1__description {
+        font-size: 15px;
+    }
+    
+    .div__star {
+        margin-top: 80px;
+        width: 100%;
+        margin-right: 10%;
+        /* background-color: rgb(98, 197, 221); */
+    }
+    
+    .div__list {
+        list-style: none;
+        padding-left: 30%;
+    }
+    
+    .li__1,
+    .li__2,
+    .li__3 {
+        padding: 15px;
+        margin: 20px;
+        border-radius: 8px;
+        text-align: left;
+        font-size: 15px;
+        color: rgb(92, 8, 92);
+        background-color: rgb(246, 240, 247);
+    }
+    
+    .li__1 {
+        margin-right: 20%;
+    }
+    
+    .li__2 {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .li__3 {
+        margin-left: 20%;
+        margin-right: 10%px;
+    }
+    
+    .Container2 {
+        margin-bottom: 80px;
+        padding-left: 80px;
+        display: flex;
+        justify-content: center;
+        padding-right: 100px;
+        /* background-color: tomato; */
+    }
+    
+    .card3,
+    .card3__2,
+    .card3__3 {
+        background-color: rgb(92, 8, 92);
+        color: white;
+        cursor: pointer;
+        margin: 40px 30px 85px;
+        border-radius: 10px;
+        box-shadow: #aaa 0px 0px 8px;
+    }
+    
+    .card3__header {
+        height: 20%;
+        justify-content: center;
+    }
+    
+    .card3__img {
+        float: left;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        margin-left: 50px;
+    }
+    
+    .card3__2 {
+        margin-top: 0px;
+    }
+    
+    .card3__2 {
+        margin-top: 60px;
+    }
+    
+    .card3__3 {
+        margin-top: 80px;
+    }
+    
+    .card3__title {
+        text-align: left;
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    
+    .card3__subtitle {
+        text-align: left;
+        color: rgb(177, 31, 169);
+    }
+    
+    .card3__body {
+        padding: 40px;
+    }
+    
+    .card3__description {
+        font-size: 12px;
+        text-align: justify;
+    }
+    
+    .footer {
+        padding: 5px;
+        margin: 0px;
+        font-size: 12px;
+        text-align: center;
+    }
