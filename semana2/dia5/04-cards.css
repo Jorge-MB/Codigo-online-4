@@ -22,7 +22,7 @@ body {
 
 .header {
     height: 60px;
-    background: -webkit-linear-gradient(left, var(--primary), var(--primary-light), var(--primary));
+    /* background: -webkit-linear-gradient(left, var(--primary), var(--primary-light), var(--primary)); */
     display: flex;
     z-index: 10;
     position: relative;

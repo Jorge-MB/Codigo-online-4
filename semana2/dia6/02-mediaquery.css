@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-color: palegreen;
+}
+
+
+/* agregando media queries */
+
+
+/* puntos a considerar
+ 1- deben de ser ordenadoos de forma descendente de grande a pequeño */
+
+
+/* @media seran una serie de reglas que se aplicaran a la pagina, siempre y cuando el ancho del vieport, sea menor o igual a 1024px */
+
+@media (max-width: 1024px) {
+    body {
+        background-color: palevioletred;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: rgb(75, 98, 224);
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-color: rgb(223, 197, 55);
+    }
+}

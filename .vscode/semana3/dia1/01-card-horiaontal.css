@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,300&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 500px;
+    height: 250px;
+    box-shadow: slategray 0px 4px 4px;
+    /* envia a sus hijos en  una sola linea */
+    display: flex;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-left {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-left img {
+    height: 220px;
+}
+
+.card-left button {
+    flex: 1;
+    border: none;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border-radius: 2px;
+    border-bottom-left-radius: 15px;
+}
+
+.card-left button:hover {
+    background-color: orange;
+    color: white;
+    border: 1px solid orange;
+}
+
+.card-left button i {
+    margin-left: 8px;
+}
+
+.card-right {
+    flex: 2;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title {
+    text-align: center;
+    font-weight: 500;
+    color: #222;
+}
+
+.card-text {
+    text-align: justify;
+    font-weight: 300;
+    color: #666;
+}
+
+.card-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-stars {
+    color: rgb(236, 223, 43);
+}
+
+.card-share {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.card-share :hover {
+    background-color: white;
+    border: 1px orange;
+    color: orange;
+}
