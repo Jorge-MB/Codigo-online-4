@@ -33,5 +33,6 @@ body {
 @media (max-width: 480px) {
     body {
         background-color: rgb(223, 197, 55);
+        border: 2px solid red;
     }
 }
