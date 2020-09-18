@@ -1,7 +1,8 @@
 .tutorial {
     max-width: var(--width);
-    margin: a auto;
+    margin: 0 auto;
     display: flex;
+    background-color: var(--dark-blue-2);
 }
 
 .tutorial__figure {
@@ -21,6 +22,7 @@
 .tutorial__title {
     font-size: 2.5rem;
     font-weight: var(--raleway);
+    width: 70%;
 }
 
 .tutorial__paragraph {

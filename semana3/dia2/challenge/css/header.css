@@ -10,6 +10,10 @@
 
 .header__nav {}
 
+.header__nav p {
+    display: none;
+}
+
 .header__list {
     display: flex;
     list-style: none;
